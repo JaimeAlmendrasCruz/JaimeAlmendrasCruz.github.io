@@ -32,7 +32,7 @@ themeToggle.addEventListener("click", () => {
 // Download CV functionality
 document.getElementById("downloadCV").addEventListener("click", (e) => {
   e.preventDefault();
-  window.location.href = "./CV_Jaime-Almendras-Cruz.pdf";
+  window.location.href = "./assets/files/CV_Jaime-Almendras-Cruz.pdf";
   alert("¡CV descargado con exito!");
 });
 
